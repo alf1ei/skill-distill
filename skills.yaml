@@ -1,0 +1,17 @@
+# 技能清单（初稿）。等级 0–4 为本人自评；当前等级由 AI 根据 ai-profile 档案起草，标了"待确认"的请本人修改。
+owner: alf1ei
+profile:
+  intro: "大专软件技术专业，约三年第三方环境检测行业经验（电脑维护、数据录入与技术辅助）。正在学习 Python 自动化与 AI 应用，关注网络安全方向。"
+  intro_en: "Software-technology graduate (associate degree) with ~3 years in third-party environmental testing (IT maintenance, data entry, technical support). Learning Python automation and applied AI."
+# 不想出现在作品集里的公开仓库（例如早期空仓库）
+exclude_repos: [WDNMD]
+skills:
+  - {area: IT 运维, name: 电脑维护与故障排查, level: 3, note: "来自工作经历（本人档案）"}
+  - {area: 数据, name: 数据录入与整理（Excel 等）, level: 2, note: "来自工作经历；具体工具待确认"}
+  - {area: 行业, name: 第三方环境检测流程, level: 2, note: "本人档案：检测方法经验相对有限"}
+  - {area: 编程, name: Python, level: 1, match: [python], repos: [lottery-backtest, skill-distill], note: "等级待确认；相关仓库由 AI 协助编写，本人在学习中"}
+  - {area: 数据, name: 统计分析与回测, level: 1, repos: [lottery-backtest], note: "等级待确认"}
+  - {area: 工具, name: Git / GitHub, level: 1, note: "待确认"}
+  - {area: AI, name: AI 工具应用与个人知识管理, level: 2, repos: [skill-distill], note: "多平台 AI 档案与技能蒸馏实践"}
+  - {area: 安全, name: 网络安全, level: 0, note: "关注方向，尚无实践记录"}
+  - {area: 影像, name: 视频拍摄与 DaVinci Resolve 调色, level: 1, note: "使用 Panasonic S5II；等级待确认"}
