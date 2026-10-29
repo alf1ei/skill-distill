@@ -1,0 +1,24 @@
+[
+  {
+    "id": "example-1",
+    "title": "【示例数据】CS2 鼠标选购",
+    "create_time": 1761782400,
+    "current_node": "n4",
+    "mapping": {
+      "n0": {"id": "n0", "parent": null, "message": null},
+      "n1": {"id": "n1", "parent": "n0", "message": {"author": {"role": "system"}, "content": {"parts": [""]}}},
+      "n2": {"id": "n2", "parent": "n1", "message": {"author": {"role": "user"}, "create_time": 1761782400, "content": {"content_type": "text", "parts": ["（示例）我玩 CS2，手长 16.5cm 趴握，希望推荐右手人体工学鼠标。不要只看品牌。我的邮箱 demo@example.com"]}}},
+      "n3": {"id": "n3", "parent": "n2", "message": {"author": {"role": "assistant"}, "create_time": 1761782460, "content": {"content_type": "text", "parts": ["（示例）建议这样选：\n1. 先量手长手宽，确认握法\n2. 再按长度 120-125mm 筛选右手型号\n3. 最后对比重量、传感器和售后"]}}},
+      "n4": {"id": "n4", "parent": "n3", "message": {"author": {"role": "user"}, "create_time": 1761782520, "content": {"content_type": "text", "parts": ["（示例）谢谢，我更关注定位稳定性和延迟。"]}}}
+    }
+  },
+  {
+    "id": "example-2",
+    "title": "【示例数据】双色球回测",
+    "create_time": 1761868800,
+    "mapping": {
+      "a": {"id": "a", "parent": null, "message": {"author": {"role": "user"}, "create_time": 1761868800, "content": {"parts": ["（示例）我想用双色球历史数据回测热号策略，希望有随机基准对比。"]}}},
+      "b": {"id": "b", "parent": "a", "message": {"author": {"role": "assistant"}, "create_time": 1761868860, "content": {"parts": ["（示例）步骤：\n1. 抓取历史开奖\n2. 划分训练期和样本外测试期\n3. 和随机选号对比每 2 元回报"]}}}
+    }
+  }
+]
