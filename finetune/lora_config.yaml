@@ -1,0 +1,20 @@
+# LoRA SFT 配置。小显存默认：Qwen2.5-0.5B-Instruct；有 16GB+ 显存可换 1.5B。
+base_model: Qwen/Qwen2.5-0.5B-Instruct
+train_file: finetune/data/train.example.jsonl   # 换成 skill-distill sft 生成的 out/sft/train.jsonl
+eval_file: finetune/data/eval.example.jsonl
+output_dir: checkpoints/persona-lora
+max_seq_len: 1024
+epochs: 3
+lr: 2.0e-4
+batch_size: 2
+grad_accum: 8
+warmup_ratio: 0.03
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+bf16: true          # 不支持 bf16 的显卡改为 false 并开 fp16
+fp16: false
+load_in_4bit: false # true 时需要 bitsandbytes（QLoRA）
+seed: 42
