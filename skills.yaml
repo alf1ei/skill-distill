@@ -1,8 +1,8 @@
 # 技能清单（初稿）。等级 0–4 为本人自评；当前等级由 AI 根据 ai-profile 档案起草，标了"待确认"的请本人修改。
 owner: alf1ei
 profile:
-  intro: "大专软件技术专业，约三年第三方环境检测行业经验（电脑维护、数据录入与技术辅助）。正在学习 Python 自动化与 AI 应用，关注网络安全方向。"
-  intro_en: "Software-technology graduate (associate degree) with ~3 years in third-party environmental testing (IT maintenance, data entry, technical support). Learning Python automation and applied AI."
+  intro: "软件技术专业，约三年第三方环境检测行业经验（电脑维护、数据录入与技术辅助）。正在学习 Python 自动化与 AI 应用，关注网络安全方向。"
+  intro_en: "Software-technology graduate with ~3 years in third-party environmental testing (IT maintenance, data entry, technical support). Learning Python automation and applied AI."
 # 不想出现在作品集里的公开仓库（例如早期空仓库）
 exclude_repos: [WDNMD]
 skills:
